@@ -1,5 +1,5 @@
 {% set name = "pydantic-extra-types" %}
-{% set version = "2.10.4" %}
+{% set version = "2.10.5" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pydantic_extra_types-{{ version }}.tar.gz
-  sha256: bf8236a63d061eb3ecb1b2afa78ba0f97e3f67aa11dbbff56ec90491e8772edc
+  sha256: 1dcfa2c0cf741a422f088e0dbb4690e7bfadaaf050da3d6f80d6c3cf58a2bad8
 
 build:
   noarch: python
