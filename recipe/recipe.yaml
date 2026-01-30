@@ -29,7 +29,7 @@ requirements:
     - phonenumbers >=8,<9
     - pycountry >=23
     - semver >=3.0.2,<4
-    - python-ulid >=1,<3
+    - python-ulid >=1,<4
     - pendulum >=3.0.0,<4.0.0
     - pytz >=2024.1
     - tzdata >=2024a
