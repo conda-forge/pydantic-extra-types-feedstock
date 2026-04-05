@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pydantic-extra-types
-  version: "2.11.1"
+  version: "2.11.2"
 
 package:
   name: ${{ name }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pydantic_extra_types-${{ version }}.tar.gz
-  sha256: 46792d2307383859e923d8fcefa82108b1a141f8a9c0198982b3832ab5ef1049
+  sha256: 3a2b83b61fe920925688e7838b59caa90a45637d1dbba2b1364b8d1f7ff72a0a
 
 build:
   number: 0
